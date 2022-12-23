@@ -2,6 +2,7 @@
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+  
 }
 
 .ui.cards > .card > .image {
@@ -19,6 +20,7 @@
   height: 48px;
   overflow: hidden;
   margin-bottom: 5px;
+  
 }
 .ui.cards > .card > .content > .description {
   height: 36px;
@@ -40,14 +42,18 @@
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
+  background: black;
+  color: white;
 }
 
 .ui.grid.container {
   margin-top: 45px;
+  background: wheat;
 }
 
 .ui.grid > .row {
   background: #fff;
+  
 }
 .ui.grid > .row > .column.lp {
   padding: 20px 40px 20px 20px;
@@ -85,8 +91,8 @@
 .ui.placeholder.segment .column .field,
 .ui.placeholder.segment .column textarea,
 .ui.placeholder.segment .column > .ui.input {
-  background-color: #ff3e6c;
-  border: 1px solid #ff3e6c;
+  background-color: black;
+  border: 1px solid whitesmoke;
   color: #fff;
   font-size: 18px;
   margin-left: 0;

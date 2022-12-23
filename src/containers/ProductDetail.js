@@ -47,9 +47,9 @@ const ProductDetails = () => {
                 <p>{description}</p>
                 <div className="ui vertical animated button" tabIndex="0">
                   <div className="hidden content">
-                    <i className="shop icon"></i>
+                    
                   </div>
-                  <div className="visible content">Add to Cart</div>
+                  <a className="visible content" href='/'>Go Back</a>
                 </div>
               </div>
             </div>
